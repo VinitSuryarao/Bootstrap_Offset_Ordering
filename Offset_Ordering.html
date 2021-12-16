@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="E:\Study\Code\Bootstrap\CSS\bootstrap.css">
+        
+        <style type="text/css">
+            .orange {background-color: orange;}
+            .gray {background-color: gray;}
+            .pink { background-color: pink; }
+            .yellow { background-color: yellow; }
+
+        </style>
+        
+    </head>
+    <body>
+        <div class="container"> Welcome to Bootstrap
+             <!-- Col Offset -->
+             <div class="row"> 
+                <div class="col offset-2 orange"> Col 1</div>
+                <div class="col offset-3 gray"> Col 2</div>
+            </div>
+            <!-- Without  Order -->
+            <div class="row"> 
+                <div class="col orange"> Col 1</div>
+                <div class="col gray"> Col 2</div>
+                <div class="col pink"> Col 3</div>
+                <div class="col yellow"> Col 4</div>
+            </div>
+            <!-- Ordering with First and Last -->
+             <div class="row"> 
+                <div class="col order-last orange"> Col 1</div>
+                <div class="col gray"> Col 2</div>
+                <div class="col order-first pink"> Col 3</div>
+                <div class="col yellow"> Col 4</div>
+            </div>
+            <!-- Ordering with Grid Numbers -->
+             <div class="row"> 
+                <div class="col order-2 orange"> Col 1</div>
+                <div class="col order-3 gray"> Col 2</div>
+                <div class="col order-4 pink"> Col 3</div>
+                <div class="col order-1 yellow"> Col 4</div>
+            </div>
+        </div>
+    </body>
+</html>
